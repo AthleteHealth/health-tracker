@@ -29,7 +29,7 @@
  
 
               <li><a href="#Team">TEAMS</a></li>
-              <li><a href="PageTemplate.html">ABOUT</a></li>
+              <li><a href="#">ABOUT</a></li>
               <li><a href="#Contact">CONTACT</a></li>
 			  <li><a href="#">Download</a></li>
             </ul>
@@ -108,7 +108,7 @@ Are you ready to take your athletic abilities to the next level? Welcome to AIFI
               <span class="first-line"></span>
               <span class="second-line"></span>
             </div>
-            <p class="page-section__subtitle">About Aryan</p>
+            <p class="PageTemplate.html">About Aryan</p>
           </div>
           <div class="row gutters-80">
             <div class="col-md-4">

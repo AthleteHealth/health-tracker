@@ -26,56 +26,40 @@
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav pull-right">
- 
-
-              <li><a href="#Team">TEAMS</a></li>
-              <li><a href="PageTemplate.html">ABOUT</a></li>
-              <li><a href="#Contact">CONTACT</a></li>
-			  <li><a href="#">Download</a></li>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="#">TESTIMONIALS</a></li>
+              <li><a href="#">TEAMS</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="tel:97979">CONTACT</a></li>
             </ul>
           </div>
         </nav>
-        <div class="row">
-          <div class="col-lg-6">
-            <img class="img-responsive" src="assets/images/running-man.png" alt="">
-          </div>
-          <div class="col-lg-6 header__content">
-            <h1 class="title">AIFIT Athelete <span class="title-style"></span></h1>
-            <p>AIFITathlete: Empowering Young Athletes with AI-Driven Sports Medicine:<br><br>
 
-Welcome to AIFITathlete, the innovative platform that propels sports medicine into the future. Our mission is to harness the power of artificial intelligence (AI) to predict injuries and equip young athletes with the tools to enhance their athletic abilities. At AIFITathlete, we understand the importance of nurturing the potential of young athletes. Through our AI-driven approach, we empower them with valuable insights and personalized recommendations tailored to their unique needs. By mitigating injury risks and optimizing athletic development, we pave the way for young athletes to unlock their full potential. Join us on this exciting journey into the future of sports medicine, where AI and human athleticism converge to shape a new era of performance enhancement and injury prevention. Discover how AIFITathlete can help you elevate your game and embark on a path towards athletic excellence.
-Are you ready to take your athletic abilities to the next level? Welcome to AIFITathlete where AI meets athletic prowess.</p>
-            <a class="button button--white" href="PageTemplate.html">LEARN MORE</a>
-            
-          </div>
-        </div>
       </div>
     </header>
 
- 
-
-    <section class="video video--bg">
+    <section class="steps">
       <div class="container">
-        <div class="page-section">
-          <div class="row">
-            <div class="col-md-7 video__left">
-              <a data-toggle="modal" data-target="#myModal" href="#"><i class="material-icons">play_circle_filled</i></a>
-            </div>
-            <div class="col-md-5">
-              <div class="video__right text-center">
-                <h2 class="video__title">Watch the video</h2>
-                <div class="video__title-style">
-                  <span class="first-line"></span>
-                  <span class="second-line"></span>
-                </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-                <a class="button button--white" href="#">TRY NOW</a>
-              </div>
-            </div>
+        <div class="page-section text-center">
+          <h2 class="page-section__title">Header </h2>
+          <div class="page-section__title-style">
+            <span class="first-line"></span>
+            <span class="second-line"></span>
           </div>
-        </div>
-      </div>
+          <p class="page-section__subtitle">
+		  
+		  
+		  As we are moving toward a technology-rich future, we see the world of sports is evolving by leaps. While statistical data has always played a central role in the sports industry, one technology has significantly increased the level of audience engagement and 
+		  <br><font face="arial" color="#8ebf42">strategic gaming. We are talking about Artificial Intelligence in Sports</font>. 
+
+          Over the past two decades, Artificial Intelligence has completely transformed the way we consume and analyze sports. AI is making the world smarter for athletes, broadcasters, advertisers, and at last the viewers with real-time statistics. Not to mention the role of AI in sports forecasting and improved decision making, amongst other benefits, is one of the top applications of modern technology. 
+		  
+		  
+		  </p>
+         
     </section>
+
+   
   
     <!-- video-popup -->
     <div class="container">
@@ -88,8 +72,7 @@ Are you ready to take your athletic abilities to the next level? Welcome to AIFI
               </button>
 
               <div class="embed-responsive embed-responsive-16by9">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yLrOy2Xedgk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wKtPBOb80II?autoplay=0" frameborder="0" allowfullscreen="" id="video"  allowscriptaccess="always"></iframe>
               </div>
             </div>
           </div>
@@ -98,39 +81,35 @@ Are you ready to take your athletic abilities to the next level? Welcome to AIFI
     </div>
     <!-- video-popup-end -->
 
+
   
+
     <section class="team team--bg">
       <div class="container">
         <div class="page-section">
           <div class="text-center">
-            <h2 class="page-section__title"><p id="Team">Our team</p></h2>
+            <h2 class="page-section__title">Our team</h2>
             <div class="team__title-style">
               <span class="first-line"></span>
               <span class="second-line"></span>
             </div>
-            <p class="page-section__subtitle">About Aryan</p>
+            <p class="page-section__subtitle">YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY</p>
+			<p>  </p>
           </div>
-          <div class="row gutters-80">
-            <div class="col-md-4">
+          <div class="row gutters-80"  >
+            <div class="col-md-4" >
               <div class="thumbnail team__single">
                 <div class="bio text-center">
                   <img src="assets/images/team1.png" alt="">
                   <h2>Kumar, Aryan</h2>
-                  <p>High School Graduating 2024</p>
+                  <p> High School Graduating 2024</p>
                 </div>
                 <div class="caption">
                   <p>About Aryan </p>
-                  <div class="social-icons">
-                    <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                    <li><a href="#"><i class="flaticon-twitter-logo-silhouette"></i></a></li>
-                    <li><a href="#"><i class="flaticon-google-plus"></i></a></li>
-                    <li><a href="#"><i class="flaticon-pinterest-logo"></i></a></li>
-                  </div>
                 </div>
               </div>
             </div>
-
-          </div>
+           </div>
         </div>
       </div>
     </section>
@@ -139,11 +118,13 @@ Are you ready to take your athletic abilities to the next level? Welcome to AIFI
       <div class="container">
         <div class="page-section">
           <div class="text-center">
-            <h2 class="page-section__title page-section__title--white"><p id="Contact">Contact us</p></h2>
+            <h2 class="page-section__title page-section__title--white">Contact us</h2>
             <div class="form__title-style">
               <span class="first-line"></span>
               <span class="second-line"></span>
-          
+            </div>
+            <p class="page-section__subtitle page-section__subtitle--white">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+          </div>
           <form action="#">
             <div class="form-group">
               <input class="form-control" type="text" placeholder="Name">
@@ -175,7 +156,10 @@ Are you ready to take your athletic abilities to the next level? Welcome to AIFI
             <a class="navbar-brand" href="#"></a>
             <p>Copyright <span>&copy;</span> Dart themes 2017</p>
           </div>
+          <div class="col-md-2 footer__link">
+            <li><a href="index.html">Home</a></li>
 
+          </div>
           </div>
         </div>
       </div>
