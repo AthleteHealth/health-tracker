@@ -4,14 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Runner onepage - html</title>
-  <meta name="keywords" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.">
-  <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.">
+  <meta name="keywords" content="Can AI Make a Better Athelete">
+  <meta name="description" content="Can AI Make a Better Athelete">
 
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/fonts/flat-icon/flaticon.css">
   <link rel="stylesheet" href="css/style.css">
 
-            <script type="text/javascript">
+        <script type="text/javascript">
+            function showMessage() {
+                alert("AI Integration is in Progress to generate report into Yellow Report Box ");
+            }
+
+         
             function Downloadmessage() {
                 alert("Download webportal to iOS & Android App is in progress");
             }
@@ -19,7 +24,9 @@
          function sendmessage() {
                 alert("Send email is in progress");
             }
+
         </script>
+
 </head>
 <body>
   <div id="content-wrapper">
@@ -36,47 +43,97 @@
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav pull-right">
-
-
-
-			  <li><a href="index.html">HOME</a></li>
+            
+			  <li><a href="index.html"><tr BGCOLOR="#0099ff">HOME</a></li>
               <li><a href="#Team">TEAMS</a></li>
               <li><a href="PageTemplate.html">ABOUT</a></li>
               <li><a href="#Contact">CONTACT</a></li>
-			  <li><a href="#" onClick="Downloadmessage()" >Download</a></li>
-			  <li><a href="Questionaire.html">AI Health Report</a></li>
+			  <li><a href="#" onclick="Downloadmessage()">Download</a></li>
+
 
             </ul>
           </div>
         </nav>
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="img-responsive" src="assets/images/running-man.png" alt="">
+          </div>
+          <div class="col-lg-6 header__content">
+            <h1 class="title">Generate Report <span class="title-style"></span></h1>
+                    <font COLOR="red " align="center"> <b> [ Work in Prgress ]  </b> </font><br><p>
 
-		              
+<table  border=1>
+<tr BGCOLOR="#0099ff">
+	<th> Question </th>
+	<th><b> Answer </th>
 
-              
+</tr>
+<tr BGCOLOR="#0099ff">
+	<td> <b>Age Range</td>
+	<td >
+	   <!-- <input list="AgeRange">  -->
+    <select name="AgeRange" id="AgeRange" value="10-20">
+			  <option > 10-20</option >
+			  <option> 20-30 </option >
+			  <option >30-40</option >
+			  <option >40-50</option >
+			  <option >60-70</option >
+		</select>
 
+</tr>
+<tr BGCOLOR="#0099ff">
+
+	<td><b>Caloris Burned</td>
+	<td>
+
+
+    <select name="CaloriesBurned" id="CaloriesBurned" value="0-200">
+			  <option >0-200</option >
+			  <option> 200-400 </option >
+			  <option >400-600</option >
+			  <option >600-800</option >
+			  <option >800+</option >
+		</select>
+
+</tr>
+
+<tr BGCOLOR="#0099ff">
+	<td><b>Calories Consumed</td>
+    <td>
+    <select name="CaloriesConsumed" id="CaloriesConsumed" value="0-500">
+			  <option >0-500</option >
+			  <option> 500-800 </option >
+			  <option >800-1100</option >
+			  <option >1100-1300</option >
+			  <option >1300+</option >
+		</select>
+
+</tr>
+</table>
+
+<br>
+
+<br> 
+<center>            <div class="row">
+              <div class="col-md-6 form-button">
+                <input class="button--form" type="button" value="Generate Report" onClick="showMessage()">
+
+              </div>
+            </div>
+			</center>
+<textarea readonly id="w3review" name="w3review"  style="background-color: yellow;"  rows="10" cols="100">
+[[ AI Report output   ]]
+[[ Integration is in Progress   ]]
+</textarea>
+            
+          </div>
+        </div>
       </div>
     </header>
 
-    <section class="steps">
-      <div class="container">
-        <div class="page-section text-center">
-          <h2 class="page-section__title">Research studies </h2>
-          <div class="page-section__title-style">
-            <span class="first-line"></span>
-            <span class="second-line"></span>
-          </div>
-          <p class="page-section__subtitle">
-		  
-		  
-		   Discover the Future of Injury Prevention with AI-Powered MCL Injury Prediction. Gain insights into cutting-edge research that harnesses the power of artificial intelligence to safeguard athletes from MCL injuries. Don't miss the opportunity to stay ahead of the game and protect your athletic career. Click here to explore our groundbreaking research proposal and revolutionize your idea of sports medicine.
-		  <p><font face="arial" color="#8ebf42"> 
-		  
-		  
-		  </p>
-         <a class="button button--white" href="Research Proposal Draft.pdf">Research Studies</a>
-    </section>
+ 
 
-   
+    
   
     <!-- video-popup -->
     <div class="container">
@@ -89,7 +146,8 @@
               </button>
 
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wKtPBOb80II?autoplay=0" frameborder="0" allowfullscreen="" id="video"  allowscriptaccess="always"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yLrOy2Xedgk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
               </div>
             </div>
           </div>
@@ -98,70 +156,11 @@
     </div>
     <!-- video-popup-end -->
 
-
   
-
-
-
  
-    <section class="team team--bg">
-      <div class="container">
-        <div class="page-section">
-          <div class="text-center">
-            <h2 class="page-section__title"><p id="Team">Our team</p></h2>
-            <div class="team__title-style">
-              <span class="first-line"></span>
-              <span class="second-line"></span>
-            </div>
-            <p class="page-section__subtitle">About Aryan</p>
-          </div>
-          <div class="row gutters-80">
-            <div class="col-md-35">
-              <div class="thumbnail team__single">
-                <div class="bio text-center">
-                  <img src="assets/images/Aryan.jpg" alt="">
-                  <h2>Kumar, Aryan</h2>
-                  <p>High School Graduating 2024</p>
-                </div>
-                <div class="caption">
                   
 
-<B>Academic Information:</B>
-<table width=100% border=0>
-<tr width=100%>
-	<td  width=50%>Arnold O. Beckman High School</td>
-	<td  width=50%>CEEB-ACT Code: 051 267</td>
-</tr>
-<tr width=100%>
-	<td  width=50%>3588 Bryan Avenue</td>
-	<td  width=50%>Phone: (714) 760-6514</td>
-</tr>
-<tr width=100%>
-	<td  width=50%>Irvine, CA 92602 - 1347	</td>
-	<td  width=50%>Website: www.tustin.k12.ca.us/beckman</td>
-</tr>
-</table>
-<br>
-<B>Personal Information:</B>
-<table width=100% border=0>
-<tr width=100%>
-	<td  width=50%>Cell Phone: (714)-(760)-(6514)   </td>
-	<td  width=50%>E-Mail: karyan2410@icloud.com</td>
-</tr>
-<tr width=100%>
-	<td  width=50%>11 Haverhill, Irvine, CA 92602</td>
-	<td  width=50%>Graduation Date: May 28, 2024</td>
-</tr>
-</table>
-                </p>
-                </div>
-              </div>
-            </div>
 
-          </div>
-        </div>
-      </div>
-    </section>
 
     <section class="form form--bg">
       <div class="container">
@@ -192,36 +191,44 @@
       </div>
     </section>
 
-
-
     <footer class="footer footer--bg">
       <div class="container">
         <div class="row">
           <div class="col-md-4 footer__left">
-            <a class="navbar-brand" href="index.html"></a>
+            <a class="navbar-brand" href="#"></a>
 			 <div class="collapse navbar-collapse" id="myNavbar">
                <ul class="nav navbar-nav pull-right">
 			  <li><a href="index.html">HOME</a></li>
             </ul>
           </div>
-
           </div>
 
           </div>
         </div>
       </div>
-
     </footer>
 
-  </div>
+ 
 
 
 
 
 
+  <script src="assets/jquery/jquery-3.2.1.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <!-- <script src="assets/owl-slider/owl.carousel.min.js"></script> -->
+
+  <script>
+    $(document).ready(function() {
+      
+      $('button').click( function(e) {
+        $('.collapse').collapse('hide');
+      });
 
 
-
+      
+    });
+  </script>
 </body>
 </html>  
 

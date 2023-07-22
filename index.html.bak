@@ -4,12 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Runner onepage - html</title>
-  <meta name="keywords" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.">
-  <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.">
+  <meta name="keywords" content="Can AI Make a Better Athelete">
+  <meta name="description" content="Can AI Make a Better Athelete">
 
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/fonts/flat-icon/flaticon.css">
   <link rel="stylesheet" href="css/style.css">
+
+            <script type="text/javascript">
+            function Downloadmessage() {
+                alert("Downloading to iOS & Android App is in progress");
+            }
+
+         function sendmessage() {
+                alert("Sending email is in progress");
+            }
+        </script>
 </head>
 <body>
   <div id="content-wrapper">
@@ -29,9 +39,10 @@
  
 
               <li><a href="#Team">TEAMS</a></li>
-              <li><a href="#">ABOUT</a></li>
+              <li><a href="PageTemplate.html">ABOUT</a></li>
               <li><a href="#Contact">CONTACT</a></li>
-			  <li><a href="#">Download</a></li>
+			  <li><a href="#" onClick="Downloadmessage()">Download</a></li>
+			  <li><a href="Questionaire.html">AI Health Report</a></li>
             </ul>
           </div>
         </nav>
@@ -45,14 +56,14 @@
 
 Welcome to AIFITathlete, the innovative platform that propels sports medicine into the future. Our mission is to harness the power of artificial intelligence (AI) to predict injuries and equip young athletes with the tools to enhance their athletic abilities. At AIFITathlete, we understand the importance of nurturing the potential of young athletes. Through our AI-driven approach, we empower them with valuable insights and personalized recommendations tailored to their unique needs. By mitigating injury risks and optimizing athletic development, we pave the way for young athletes to unlock their full potential. Join us on this exciting journey into the future of sports medicine, where AI and human athleticism converge to shape a new era of performance enhancement and injury prevention. Discover how AIFITathlete can help you elevate your game and embark on a path towards athletic excellence.
 Are you ready to take your athletic abilities to the next level? Welcome to AIFITathlete where AI meets athletic prowess.</p>
-            <a class="button button--white" href="PageTemplate.html">LEARN MORE</a>
+            <a class="button button--white" href="PageTemplate.html">LEARN MORE</a> 
             
           </div>
         </div>
       </div>
     </header>
 
- 
+
 
     <section class="video video--bg">
       <div class="container">
@@ -68,8 +79,8 @@ Are you ready to take your athletic abilities to the next level? Welcome to AIFI
                   <span class="first-line"></span>
                   <span class="second-line"></span>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-                <a class="button button--white" href="#">TRY NOW</a>
+                <p>Can AI Make a Better Athelete</p>
+               <!-- <a class="button button--white" href="#">TRY NOW</a> -->
               </div>
             </div>
           </div>
@@ -87,8 +98,12 @@ Are you ready to take your athletic abilities to the next level? Welcome to AIFI
                 <span aria-hidden="true">&times;</span>
               </button>
 
-              <div class="embed-responsive embed-responsive-16by9">
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/26PpYkxaZho" title="Manchester United vs. Lyon | Full Game Highlights | ESPN FC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+             <div class="embed-responsive embed-responsive-16by9"> 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yLrOy2Xedgk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 
               </div>
             </div>
@@ -108,24 +123,47 @@ Are you ready to take your athletic abilities to the next level? Welcome to AIFI
               <span class="first-line"></span>
               <span class="second-line"></span>
             </div>
-            <p class="PageTemplate.html">About Aryan</p>
+            <p class="page-section__subtitle">About Aryan</p>
           </div>
           <div class="row gutters-80">
-            <div class="col-md-4">
+            <div class="col-md-35">
               <div class="thumbnail team__single">
                 <div class="bio text-center">
-                  <img src="assets/images/team1.png" alt="">
+                  <img src="assets/images/Aryan.jpg" alt="">
                   <h2>Kumar, Aryan</h2>
                   <p>High School Graduating 2024</p>
                 </div>
                 <div class="caption">
-                  <p>About Aryan </p>
-                  <div class="social-icons">
-                    <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                    <li><a href="#"><i class="flaticon-twitter-logo-silhouette"></i></a></li>
-                    <li><a href="#"><i class="flaticon-google-plus"></i></a></li>
-                    <li><a href="#"><i class="flaticon-pinterest-logo"></i></a></li>
-                  </div>
+                  
+
+<B>Academic Information:</B>
+<table width=100% border=0>
+<tr width=100%>
+	<td  width=50%>Arnold O. Beckman High School</td>
+	<td  width=50%>CEEB-ACT Code: 051 267</td>
+</tr>
+<tr width=100%>
+	<td  width=50%>3588 Bryan Avenue</td>
+	<td  width=50%>School Phone: (714) 734-2900</td>
+</tr>
+<tr width=100%>
+	<td  width=50%>Irvine, CA 92602 - 1347	</td>
+	<td  width=50%>Website: www.tustin.k12.ca.us/beckman</td>
+</tr>
+</table>
+<br>
+<B>Personal Information:</B>
+<table width=100% border=0>
+<tr width=100%>
+	<td  width=50%>Cell Phone: (714)-(760)-(6514)   </td>
+	<td  width=50%>E-Mail: karyan2410@icloud.com</td>
+</tr>
+<tr width=100%>
+	<td  width=50%>11 Haverhill, Irvine, CA 92602</td>
+	<td  width=50%>Graduation Date: May 28, 2024</td>
+</tr>
+</table>
+                </p>
                 </div>
               </div>
             </div>
@@ -155,12 +193,8 @@ Are you ready to take your athletic abilities to the next level? Welcome to AIFI
                <textarea class="form-control" rows="5" placeholder="Message"></textarea>
             </div>
             <div class="row">
-              <div class="col-md-6 checkbox">
-                <input type="checkbox" id="checkbox-1">
-                <label for="checkbox-1"> Subscribe to newslatter</label>
-              </div>
               <div class="col-md-6 form-button">
-                <input class="button--form" type="submit" value="SEND">
+                <input class="button--form" type="submit" value="SEND" onclick="sendmessage()">
               </div>
             </div>
           </form>
@@ -173,7 +207,7 @@ Are you ready to take your athletic abilities to the next level? Welcome to AIFI
         <div class="row">
           <div class="col-md-4 footer__left">
             <a class="navbar-brand" href="#"></a>
-            <p>Copyright <span>&copy;</span> Dart themes 2017</p>
+
           </div>
 
           </div>
@@ -188,16 +222,8 @@ Are you ready to take your athletic abilities to the next level? Welcome to AIFI
 
 
 
-  <script src="assets/jquery/jquery-3.2.1.min.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <!-- <script src="assets/owl-slider/owl.carousel.min.js"></script> -->
 
-  <script>
-    $(document).ready(function() {
-      
-      $('button').click( function(e) {
-        $('.collapse').collapse('hide');
-      });
+
 
 
       

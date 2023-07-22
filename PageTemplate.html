@@ -10,6 +10,16 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/fonts/flat-icon/flaticon.css">
   <link rel="stylesheet" href="css/style.css">
+
+            <script type="text/javascript">
+            function Downloadmessage() {
+                alert("Downloading to iOS & Android App is in progress");
+            }
+
+         function sendmessage() {
+                alert("Sending email is in progress");
+            }
+        </script>
 </head>
 <body>
   <div id="content-wrapper">
@@ -26,14 +36,23 @@
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav pull-right">
-              <li><a href="index.html">HOME</a></li>
-              <li><a href="#">TESTIMONIALS</a></li>
-              <li><a href="#">TEAMS</a></li>
-              <li><a href="#">ABOUT</a></li>
-              <li><a href="tel:97979">CONTACT</a></li>
+
+
+
+			  <li><a href="index.html">HOME</a></li>
+              <li><a href="#Team">TEAMS</a></li>
+              <li><a href="PageTemplate.html">ABOUT</a></li>
+              <li><a href="#Contact">CONTACT</a></li>
+			  <li><a href="#" onClick="Downloadmessage()" >Download</a></li>
+			  <li><a href="Questionaire.html">AI Health Report</a></li>
+
             </ul>
           </div>
         </nav>
+
+		              
+
+              
 
       </div>
     </header>
@@ -82,19 +101,77 @@
 
   
 
-    
+
+
+ 
+    <section class="team team--bg">
+      <div class="container">
+        <div class="page-section">
+          <div class="text-center">
+            <h2 class="page-section__title"><p id="Team">Our team</p></h2>
+            <div class="team__title-style">
+              <span class="first-line"></span>
+              <span class="second-line"></span>
+            </div>
+            <p class="page-section__subtitle">About Aryan</p>
+          </div>
+          <div class="row gutters-80">
+            <div class="col-md-35">
+              <div class="thumbnail team__single">
+                <div class="bio text-center">
+                  <img src="assets/images/Aryan.jpg" alt="">
+                  <h2>Kumar, Aryan</h2>
+                  <p>High School Graduating 2024</p>
+                </div>
+                <div class="caption">
+                  
+
+<B>Academic Information:</B>
+<table width=100% border=0>
+<tr width=100%>
+	<td  width=50%>Arnold O. Beckman High School</td>
+	<td  width=50%>CEEB-ACT Code: 051 267</td>
+</tr>
+<tr width=100%>
+	<td  width=50%>3588 Bryan Avenue</td>
+	<td  width=50%>Phone: (714) 760-6514</td>
+</tr>
+<tr width=100%>
+	<td  width=50%>Irvine, CA 92602 - 1347	</td>
+	<td  width=50%>Website: www.tustin.k12.ca.us/beckman</td>
+</tr>
+</table>
+<br>
+<B>Personal Information:</B>
+<table width=100% border=0>
+<tr width=100%>
+	<td  width=50%>Cell Phone: (714)-(760)-(6514)   </td>
+	<td  width=50%>E-Mail: karyan2410@icloud.com</td>
+</tr>
+<tr width=100%>
+	<td  width=50%>11 Haverhill, Irvine, CA 92602</td>
+	<td  width=50%>Graduation Date: May 28, 2024</td>
+</tr>
+</table>
+                </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="form form--bg">
       <div class="container">
         <div class="page-section">
           <div class="text-center">
-            <h2 class="page-section__title page-section__title--white">Contact us</h2>
+            <h2 class="page-section__title page-section__title--white"><p id="Contact">Contact us</p></h2>
             <div class="form__title-style">
               <span class="first-line"></span>
               <span class="second-line"></span>
-            </div>
-            <p class="page-section__subtitle page-section__subtitle--white"></p>
-          </div>
+          
           <form action="#">
             <div class="form-group">
               <input class="form-control" type="text" placeholder="Name">
@@ -106,12 +183,8 @@
                <textarea class="form-control" rows="5" placeholder="Message"></textarea>
             </div>
             <div class="row">
-              <div class="col-md-6 checkbox">
-                <input type="checkbox" id="checkbox-1">
-                <label for="checkbox-1"> Subscribe to newslatter</label>
-              </div>
               <div class="col-md-6 form-button">
-                <input class="button--form" type="submit" value="SEND">
+                <input class="button--form" type="submit" value="SEND" onclick="sendmessage()">
               </div>
             </div>
           </form>
@@ -119,50 +192,36 @@
       </div>
     </section>
 
+
+
     <footer class="footer footer--bg">
       <div class="container">
         <div class="row">
           <div class="col-md-4 footer__left">
-            <a class="navbar-brand" href="#"></a>
-            <p>Copyright <span>&copy;</span> Dart themes 2017</p>
+            <a class="navbar-brand" href="index.html"></a>
+			 <div class="collapse navbar-collapse" id="myNavbar">
+               <ul class="nav navbar-nav pull-right">
+			  <li><a href="index.html">HOME</a></li>
+            </ul>
           </div>
-          <div class="col-md-2 footer__link">
-            <li><a href="index.html">Home</a></li>
 
           </div>
+
           </div>
         </div>
       </div>
+
     </footer>
 
   </div>
 
- <h2>Student Contact Form</h2>
-      <form action="mailto:karyan2410@icloud.com" method="post" enctype="text/plain">
-         Student Name:<br><input type="text" name="sname"> <br>
-         Student Subject:<br><input type="text" name="ssubject"><br>
-         <input type="submit" value="Send">
-      </form>
 
 
 
 
 
-  <script src="assets/jquery/jquery-3.2.1.min.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <!-- <script src="assets/owl-slider/owl.carousel.min.js"></script> -->
-
-  <script>
-    $(document).ready(function() {
-      
-      $('button').click( function(e) {
-        $('.collapse').collapse('hide');
-      });
 
 
-      
-    });
-  </script>
 </body>
 </html>  
 
